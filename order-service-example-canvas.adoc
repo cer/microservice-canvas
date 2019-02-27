@@ -1,0 +1,84 @@
+= Order Service canvas
+Chris Richardson <http://microservices.io>
+Copyright (c) 2019 Chris Richardson Consulting Inc. All rights reserved
+
+This canvas describes the `Order Service`, which is part of the https://github.com/microservices-patterns/ftgo-application/[FTGO application].
+
+[cols="8*"]
+|===
+3+a| Name: 5+a| Order Service
+
+3+a| *Description:*
+5+a|
+
+The Order Service provides an API for creating, revising, and cancelling orders.
+
+8+a| *Capabilities*
+8+a|
+Order Management
+8+| *Service API*
+3+| Commands 3+| Queries 2+| Events Published
+3+a| Synchronous:
+
+* createOrder()
+* reviseOrder()
+* cancelOrder()
+
+Asynchronous:
+
+* N/A
+
+ 3+a| getOrder() 2+a| Order event channel:
+
+* Order Created
+* Order Authorized
+* Order Revised
+* Order Cancelled
+* ...
+
+3+| Non-functional requirements 5+a|
+
+* 99.95% availability
+* 1000 orders/second
+
+8+| *Key metrics*
+8+a|
+
+* placed_orders
+* approved_orders
+* rejected_orders
+* ...
+
+8+| *Implementation*
+8+| Domain Model
+8+a| * Order aggregate
+8+| *Dependencies*
+4+| Invokes 4+| Subscribes to
+4+a|
+
+Consumer Service:
+
+* validateOrder()
+
+Kitchen service:
+
+* createTicket()
+* confirmCreateTicket()
+* cancelCreateTicket()
+
+Accounting Service
+
+* authorize()
+
+ 4+a| Restaurant Service
+
+* Restaurant Created event
+* Restaurant Menu Revised event
+
+Saga reply channels:
+
+* Create Order Saga
+* Revise Order Saga
+* Cancel Order Saga
+
+|===
