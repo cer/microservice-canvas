@@ -41,13 +41,19 @@ Asynchronous:
 * 99.95% availability
 * 1000 orders/second
 
-8+| *Key metrics*
+8+| *Observability*
+8+| Key metrics
 8+a|
 
 * placed_orders
 * approved_orders
 * rejected_orders
 * ...
+
+4+| Health check endpoint
+4+| /actuator/health
+
+
 
 8+| *Implementation*
 8+| Domain Model
