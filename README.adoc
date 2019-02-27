@@ -1,3 +1,7 @@
 Examples of the microservice canvas
 
 Copyright (c) 2019 Chris Richardson Consulting Inc. All rights reserved
+
+
+
+image::http://chrisrichardson.net/i/posts/Order_Service_Canvas.png[]
