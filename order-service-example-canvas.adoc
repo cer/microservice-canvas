@@ -2,6 +2,7 @@
 Chris Richardson <http://microservices.io>
 Copyright (c) 2019 Chris Richardson Consulting Inc. All rights reserved
 
+
 This canvas describes the `Order Service`, which is part of the https://github.com/microservices-patterns/ftgo-application/[FTGO application].
 
 [cols="8*"]
