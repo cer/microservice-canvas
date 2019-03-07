@@ -1,6 +1,12 @@
 # Examples of the microservice canvas
 
-This canvas describes the `Order Service`, which is part of the https://github.com/microservices-patterns/ftgo-application/[FTGO application].
+## About the microservice canvas
+
+To learn more about the microservice canvas please see this http://chrisrichardson.net/post/microservices/general/2019/02/27/microservice-canvas.html[blog post].
+
+## The microservice canvas for the Order Service
+
+This microservice canvas describes the `Order Service`, which is part of the https://github.com/microservices-patterns/ftgo-application/[FTGO application] - my https://microservices.io/book[book's] example application.
 
 image::http://chrisrichardson.net/i/posts/Order_Service_Canvas.png[]
 
