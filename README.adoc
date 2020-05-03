@@ -2,6 +2,7 @@
 
 ## About the microservice canvas
 
+The microservice canvas is a very convenient way to document a (micro)service.
 To learn more about the microservice canvas please see this http://chrisrichardson.net/post/microservices/general/2019/02/27/microservice-canvas.html[blog post].
 
 ## Formats
@@ -12,7 +13,11 @@ The canvas is available in the following formats:
 * link:Order_Service_Canvas.docx[Word]
 * https://docs.google.com/document/d/1GM9ziaa5yOJsHJRa_Cnhvnugl3oOBmjs3rMM3p0Ialk/edit?usp=sharing[Google Doc]
 
-## The microservice canvas for the Order Service
+## Tools
+
+Take a look at this https://github.com/microservice-canvas/microservice-canvas-tools/[library for generating a canvas] for a running service.
+
+## Example microservice canvas
 
 This microservice canvas describes the `Order Service`, which is part of the https://github.com/microservices-patterns/ftgo-application/[FTGO application] - my https://microservices.io/book[book's] example application.
 
