@@ -1,0 +1,43 @@
+= Blank canvas
+Chris Richardson <http://microservices.io>
+Copyright (c) 2020 Chris Richardson Consulting Inc. All rights reserved
+
+
+[cols="8*"]
+|===
+3+a| Name: 5+a|
+
+3+a| *Description:*
+5+a|
+
+
+
+8+a| *Capabilities*
+8+a|
+
+8+| *Service API*
+3+| Commands 3+| Queries 2+| Events Published
+3+a|
+3+a|
+2+a|
+
+3+| Non-functional requirements 5+a|
+
+8+| *Observability*
+8+| Key metrics
+8+a|
+
+4+| Health check endpoint
+4+|
+
+8+| *Implementation*
+8+| Domain Model
+8+a|
+8+| *Dependencies*
+4+| Invokes 4+| Subscribes to
+
+4+a|
+
+4+a|
+
+|===
