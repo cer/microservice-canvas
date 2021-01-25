@@ -7,7 +7,8 @@ This canvas describes the `Order Service`, which is part of the https://github.c
 
 [cols="8*"]
 |===
-3+a| Name: 5+a| Order Service
+3+a| Name: 4+a| Order Service
+1+a| Version: 1.0
 
 3+a| *Description:*
 5+a|
